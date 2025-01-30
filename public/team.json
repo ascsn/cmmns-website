@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Kyle Godbey",
+      "title": "Lead PI",
+      "specialization": "Fission, Density Functional Theory, HPC, Machine Learning",
+      "email": "godbeyky@msu.edu",
+      "website": "https://kyle.ee",
+      "image": "/headshots/kylegodbey.jpg"
+    },
+    {
+      "name": "Daniel Phillips",
+      "title": "Co-PI",
+      "specialization": "Effective field theory, Bayesian methods",
+      "email": "phillid1@ohio.edu",
+      "image": "/headshots/daniel_phillips.jpg"
+    }
+]

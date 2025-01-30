@@ -1,0 +1,15 @@
+
+[
+    {
+      "title": "Publication Title 1",
+      "authors": "Author A, Author B, Author C",
+      "journal": "Journal Name",
+      "year": 2023
+    },
+    {
+      "title": "Publication Title 2",
+      "authors": "Author D, Author E",
+      "journal": "Another Journal",
+      "year": 2024
+    }
+  ]
