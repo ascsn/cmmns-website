@@ -4,8 +4,6 @@ import {
   MissionSection,
   SectionTitle,
   SectionContent,
-  TeamSection,
-  TeamMember,
 } from './styles';
 
 const About = () => {
