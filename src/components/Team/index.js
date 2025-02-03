@@ -13,13 +13,9 @@ import {
 import cytoscape from "cytoscape";
 import coseBilkent from "cytoscape-cose-bilkent";
 import fcose from 'cytoscape-fcose';
-import cola from 'cytoscape-cola';
-import layoutUtilities from 'cytoscape-layout-utilities';
 
 cytoscape.use(coseBilkent);
 cytoscape.use(fcose);
-cytoscape.use(cola);
-cytoscape.use(layoutUtilities);
 
 const Team = () => {
   const [teamData, setTeamData] = useState([]);
