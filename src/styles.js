@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f8f8f8;
+    background-color: #fff7f5;
     color: #333;
   }
 

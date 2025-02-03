@@ -1,17 +1,232 @@
 [
-    {
-      "name": "Kyle Godbey",
-      "title": "Lead PI",
-      "specialization": "Fission, Density Functional Theory, HPC, Machine Learning",
-      "email": "godbeyky@msu.edu",
-      "website": "https://kyle.ee",
-      "image": "/headshots/kylegodbey.jpg"
-    },
-    {
-      "name": "Daniel Phillips",
-      "title": "Co-PI",
-      "specialization": "Effective field theory, Bayesian methods",
-      "email": "phillid1@ohio.edu",
-      "image": "/headshots/daniel_phillips.jpg"
-    }
+  {
+    "name": "Kyle Godbey",
+    "title": "Lead PI",
+    "institution": "MSU",
+    "topics": ["Fission", "Nuclear Structure"],
+    "expertise": ["Machine Learning", "High Performance Computing", "Uncertainty Quantification"],
+    "nnsa": false,
+    "collaborators": ["Witek Nazarewicz", "Filomena Nunes", "Heiko Hergert", "Dean Lee", "Alexander Voinov", "Amy Lovell", "Matthew Mumpower", "Marc Verriere", "Nicolas Schunck", "Ingo Tews", "Ionel Stetcu"],
+    "image": "/headshots/kylegodbey.jpg"
+  },
+  {
+    "name": "Filomena Nunes",
+    "title": "Co-PI",
+    "institution": "MSU",
+    "topics": ["Fission"],
+    "expertise": ["Uncertainty Quantification"],
+    "nnsa": false,
+    "collaborators": ["Kyle Godbey", "Amy Lovell"],
+    "image": "/headshots/filomena_nunes.jpg"
+  },
+  {
+    "name": "Carl Brune",
+    "title": "Co-PI",
+    "institution": "OU",
+    "topics": ["Light-ion Reactions"],
+    "expertise": ["Experimental Physics", "Uncertainty Quantification"],
+    "nnsa": false,
+    "collaborators": ["Daniel Phillips", "Mark Paris", "Sofia Quaglioni","Kostas Kravvaris"],
+    "image": "/headshots/carl_brune.jpg"
+  },
+  {
+    "name": "Daniel Phillips",
+    "title": "Co-PI",
+    "institution": "OU",
+    "topics": ["Light-ion Reactions", "Nuclear Level Densities"],
+    "expertise": ["Uncertainty Quantification", "Machine Learning"],
+    "nnsa": false,
+    "collaborators": ["Dean Lee","Carl Brune", "Alexander Voinov", "Andrea Richard", "Mark Paris", "Kyle Godbey"],
+    "image": "/headshots/daniel_phillips.jpg"
+  },
+  {
+    "name": "Dean Lee",
+    "title": "Co-PI",
+    "institution": "MSU",
+    "topics": ["Light-ion Reactions", "Nuclear Structure"],
+    "expertise": ["Machine Learning", "High Performance Computing"],
+    "nnsa": false,
+    "collaborators": ["Kyle Godbey", "Carl Brune", "Daniel Phillips", "Kyle Wendt", "Sofia Quaglioni", "Joseph Carlson", "Stefano Gandolfi", "Ingo Tews"],
+    "image": "/headshots/dean_lee.jpg"
+  },
+  {
+    "name": "Heiko Hergert",
+    "title": "Co-PI",
+    "institution": "MSU",
+    "topics": ["Nuclear Level Densities", "Light-ion Reactions", "Nuclear Structure"],
+    "expertise": ["High Performance Computing"],
+    "nnsa": false,
+    "collaborators": ["Kyle Godbey", "Alexander Voinov", "Andrea Richard", "Carl Brune", "Kostas Kravvaris", "Sofia Quaglioni", "Nicolas Schunck", "Marc Verriere"],
+    "image": "/headshots/heiko_hergert.jpg"
+  },
+  {
+    "name": "Witold Nazarewicz",
+    "title": "Co-PI",
+    "institution": "MSU",
+    "topics": ["Fission", "Nuclear Structure"],
+    "expertise": ["Machine Learning", "Uncertainty Quantification"],
+    "nnsa": false,
+    "collaborators": ["Nicolas Schunck","Kyle Godbey","Heiko Hergert"],
+    "image": "/headshots/witek_nazarewicz.jpg"
+  },
+  {
+    "name": "Alexander Voinov",
+    "title": "Co-PI",
+    "institution": "OU",
+    "topics": ["Nuclear Level Densities", "Experimental Nuclear Physics"],
+    "expertise": ["Uncertainty Quantification"],
+    "nnsa": false,
+    "collaborators": ["Andrea Richard", "Kyle Godbey", "Jutta Escher", "Daniel Phillips", "Andre Sieverding", "Anthony Ramirez", "Toshihiko Kawano"],
+    "image": "/headshots/alexander_voinov.jpg"
+  },
+  {
+    "name": "Andrea Richard",
+    "title": "Co-PI",
+    "institution": "OU",
+    "topics": [ "Nuclear Level Densities", "Experimental Nuclear Physics"],
+    "expertise": ["Uncertainty Quantification"],
+    "nnsa": false,
+    "collaborators": ["Alexander Voinov", "Heiko Hergert", "Kyle Godbey", "Jutta Escher", "Daniel Phillips", "Andre Sieverding", "Anthony Ramirez", "Toshihiko Kawano"],
+    "image": "/headshots/andrea_richard.jpg"
+  },
+  {
+    "name": "Amy Lovell",
+    "title": "Collaborator",
+    "institution": "LANL",
+    "topics": ["Fission", "Optical Potentials"],
+    "expertise": ["Uncertainty Quantification", "Machine Learning"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/amy_lovell.jpg"
+  },
+  {
+    "name": "Marc Verriere",
+    "title": "Collaborator",
+    "institution": "LLNL",
+    "topics": ["Fission", "Nuclear Structure"],
+    "expertise": ["Machine Learning", "High Performance Computing"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/marc_verriere.jpg"
+  },
+  {
+    "name": "Nicolas Schunck",
+    "title": "Collaborator",
+    "institution": "LLNL",
+    "topics": ["Fission", "Nuclear Structure"],
+    "expertise": ["Machine Learning", "High Performance Computing", "Uncertainty Quantification"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/nicolas_schunck.png"
+  },
+  {
+    "name": "Ingo Tews",
+    "title": "Collaborator",
+    "institution": "LANL",
+    "topics": ["Nuclear Structure", "Nuclear Reactions"],
+    "expertise": ["Machine Learning", "High Performance Computing"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/ingo_tews.jpg"
+  },
+  {
+    "name": "Ionel Stetcu",
+    "title": "Collaborator",
+    "institution": "LANL",
+    "topics": ["Fission"],
+    "expertise": [ "High Performance Computing"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/ionel_stetcu.png"
+  },
+  {
+    "name": "Kyle Wendt",
+    "title": "Collaborator",
+    "institution": "LLNL",
+    "topics": ["Light-ion Reactions"],
+    "expertise": ["Machine Learning", "High Performance Computing", "Uncertainty Quantification"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/kyle_wendt.png"
+  },
+  {
+    "name": "Sofia Quaglioni",
+    "title": "Collaborator",
+    "institution": "LLNL",
+    "topics": ["Light-ion Reactions"],
+    "expertise": ["Machine Learning", "High Performance Computing", "Uncertainty Quantification"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/sofia_quaglioni.png"
+  },
+  {
+    "name": "Joseph Carlson",
+    "title": "Collaborator",
+    "institution": "LANL",
+    "topics": ["Nuclear Structure"],
+    "expertise": ["High Performance Computing"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/joseph_carlson.png"
+  },
+  {
+    "name": "Stefano Gandolfi",
+    "title": "Collaborator",
+    "institution": "LANL",
+    "topics": ["Nuclear Structure"],
+    "expertise": ["Machine Learning", "High Performance Computing", "Uncertainty Quantification"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/stefano_gandolfi.jpg"
+  },
+  {
+    "name": "Kostas Kravvaris",
+    "title": "Collaborator",
+    "institution": "LLNL",
+    "topics": ["Light-ion Reactions"],
+    "expertise": ["Machine Learning", "High Performance Computing", "Uncertainty Quantification"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/kostas_kravvaris.jpg"
+  },
+  {
+    "name": "Jutta Escher",
+    "title": "Collaborator",
+    "institution": "LLNL",
+    "topics": ["Nuclear Level Densities"],
+    "expertise": ["Machine Learning", "High Performance Computing", "Uncertainty Quantification"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/jutta_escher.png"
+  },
+  {
+    "name": "Andre Sieverding",
+    "title": "Collaborator",
+    "institution": "LLNL",
+    "topics": ["Nuclear Level Densities"],
+    "expertise": ["Machine Learning", "High Performance Computing", "Uncertainty Quantification"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/andre_sieverding.jpg"
+  },
+  {
+    "name": "Anthony Ramirez",
+    "title": "Collaborator",
+    "institution": "LLNL",
+    "topics": ["Nuclear Level Densities"],
+    "expertise": ["Machine Learning", "High Performance Computing", "Uncertainty Quantification"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/anthony_ramirez.png"
+  },
+  {
+    "name": "Toshihiko Kawano",
+    "title": "Collaborator",
+    "institution": "LANL",
+    "topics": ["Nuclear Level Densities", "Fission"],
+    "expertise": ["Uncertainty Quantification"],
+    "nnsa": true,
+    "collaborators": [],
+    "image": "/headshots/toshihiko_kawano.jpg"
+  }
 ]

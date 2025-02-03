@@ -47,3 +47,23 @@ export const MemberDetails = styled.div`
     margin: 0.2rem 0;
   }
 `;
+
+
+export const CyContainer = styled.div`
+  width: 100%;
+  height: 2000px;
+
+  .tippy-box[data-theme~='light'] {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 14px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    color: #003366;
+  }
+
+  .tippy-box[data-theme~='light'] h3 {
+    margin-top: 0;
+  }
+`;
