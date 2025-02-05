@@ -438,12 +438,12 @@ const toggleNNSAResearchers = () => {
               <MemberTitle>{member.title}</MemberTitle>
               <MemberDetails>
                 <p>
-                  Specializes in:{" "}
-                  {member.specialization
-                    ? member.specialization.join(", ")
+                  Research Topics:{" "}
+                  {member.topics
+                    ? member.topics.join(", ")
                     : "N/A"}
                 </p>
-                <p>Email: {member.email}</p>
+                {/* <p>Email: {member.email}</p> */}
               </MemberDetails>
             </TeamMember>
           ))}
